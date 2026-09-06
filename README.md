@@ -1,3 +1,4 @@
+```md
 # R&D / AI Curve Parameter Estimation
 
 ## Final answer
@@ -10,10 +11,14 @@ M     = 0.03
 X     = 55
 ```
 
+Desmos graph:
+
+https://www.desmos.com/calculator/3mrndxb5ug
+
 Desmos / LaTeX equation:
 
 ```latex
-\left(t\cdot\cos(0.523598776)-e^{0.030000000\left|t\right|}\cdot\sin(0.3t)\sin(0.523598776)+55,\ 42+t\cdot\sin(0.523598776)+e^{0.030000000\left|t\right|}\cdot\sin(0.3t)\cos(0.523598776)\right)
+\left(t\cos(0.523598776)-e^{0.03\left|t\right|}\sin(0.3t)\sin(0.523598776)+55,\ 42+t\sin(0.523598776)+e^{0.03\left|t\right|}\sin(0.3t)\cos(0.523598776)\right)\left\{6\le t\le 60\right\}
 ```
 
 Equivalent exact-angle form:
@@ -95,4 +100,5 @@ theta_rad: about 0.523598776
 theta_deg: about 30
 M: about 0.03
 X: about 55
+```
 ```
